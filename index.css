@@ -288,6 +288,24 @@ text-align: center;
     /* height: 100%; */
 }
 
+.flex-item-tl-alt{
+    padding-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-self:center;
+}
+
+.flex-item-tl-alt2{
+    width: 80%;
+    padding: 1%;
+}
+
+.flex-item-tl-alt3{
+    width: 80%;
+    padding: 1%;
+}
+
 .flex-item-hd{
     margin-left: auto;
     margin-right: auto;
@@ -300,6 +318,7 @@ h3.twi-hd{
     font-size: 2.25em;
     font-weight: 600;
     color: #630650;
+    padding-top: 3%;
 }
 
 .gal-hd{
@@ -502,6 +521,11 @@ p{
     }
 
     .flex-item-tl2{
+        width: 12%;
+        padding: 1%;
+    }
+
+    .flex-item-tl3{
         width: 12%;
         padding: 1%;
     }
