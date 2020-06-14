@@ -79,6 +79,7 @@ h5{
 }
 .burgerMenu{
     width: 100%;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
 }
@@ -86,7 +87,7 @@ h5{
 .name{
     text-align: left;
     display: inline-flex;
-    width: 80%;
+    padding-left: 12px;
 }
 
 .name2{
