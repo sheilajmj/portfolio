@@ -85,9 +85,14 @@ h5{
 }
 
 .name{
+    width: 50%;
     text-align: left;
     display: inline-flex;
     padding-left: 12px;
+}
+
+.flex-bur{
+    width: 50%;
 }
 
 .name2{
