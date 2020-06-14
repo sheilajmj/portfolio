@@ -63,8 +63,6 @@ function burgerNavClick(){
         }
        });
 
-
-
        $('.tool_2').on({
         "mouseenter" : function() {
            $('.flex-item-tl-alt2').toggleClass('hide');

@@ -13,12 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Supermercado+One&display=swap"
         rel="stylesheet">
     <script src="jquery-3.4.1.min.js"></script>
-    <script src="index.js"></script>
 </head>
 
 <body class="bdy mg-lrc">
     <nav class="sct navBar">
         <div class=burgerMenu>
+            <h3 class="name">Sheila Jagla</h3>
             <div class="burgerIcon bg-lk">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
@@ -32,10 +32,13 @@
             </div>
         </div>
         <div class="navBarLink hide">
-            <a class="pj-lk" href="#home">Home</a>
-            <a class="pj-lk" href="#about">About</a>
-            <a class="pj-lk" href="#projects">Projects</a>
-            <a class="pj-lk" href="#contact">Contact</a>
+            <h3 class="name2">Sheila Jagla</h3>
+            <div class="lg-nav-wrap">
+                <a class="lg-nav pj-lk" href="#home">Home</a>
+                <a class="lg-nav pj-lk" href="#about">About</a>
+                <a class="lg-nav pj-lk" href="#projects">Projects</a>
+                <a class="lg-nav pj-lk" href="#contact">Contact</a>
+            </div>
         </div>
     </nav>
     <section class="intro s-ct1 sct flex-container-c grad1" id="home">
@@ -202,54 +205,50 @@
                 </div>
             </div>
         </div>
-            <div class="border"></div>
-            <div class="project-wrap">
-                <h3 class="fl-he gal-hd">Galaxy Quiz</h3>
-                <div class="project-wrap flex-container-p">
-                    <div class="fl-box1 mg-lrc mn-img-wrap">
-                        <img class="mn-img mg-lrc wd-60 shw" id="gal_mn" src="assets/GalaxyQuiz/img_1.png" alt="alt" />
-                    </div>
-                    <div class="fl-box1 fl-2 tm-bx tm-wrap">
-                        <img class="tm shw ct-lk mg-sm bd" id="gal-img-1" src="assets/GalaxyQuiz/img_1.png"
-                            alt="Galaxy Quiz App Home" />
-                        <img class="tm shw ct-lk mg-sm bd" id="gal-img-3" src="assets/GalaxyQuiz/img_3.png"
-                            alt="Quiz App Question Example" />
-                        <img class="tm shw ct-lk mg-sm bd" id="gal-img-2" src="assets/GalaxyQuiz/img_2.png"
-                            alt="Quiz App Solution Example" />
-                        <img class="tm shw ct-lk mg-sm bd" id="gal-img-4" src="assets/GalaxyQuiz/img_4.png"
-                            alt="Quiz App Final Score" />
-                    </div>
+        <div class="border"></div>
+        <div class="project-wrap">
+            <h3 class="fl-he gal-hd">Galaxy Quiz</h3>
+            <div class="project-wrap flex-container-p">
+                <div class="fl-box1 mg-lrc mn-img-wrap">
+                    <img class="mn-img mg-lrc wd-60 shw" id="gal_mn" src="assets/GalaxyQuiz/img_1.png" alt="alt" />
                 </div>
-                <div class="fl-box1 mg-lrc">
-                    <div class="pd flex-item">
+                <div class="fl-box1 fl-2 tm-bx tm-wrap">
+                    <img class="tm shw ct-lk mg-sm bd" id="gal-img-1" src="assets/GalaxyQuiz/img_1.png"
+                        alt="Galaxy Quiz App Home" />
+                    <img class="tm shw ct-lk mg-sm bd" id="gal-img-3" src="assets/GalaxyQuiz/img_3.png"
+                        alt="Quiz App Question Example" />
+                    <img class="tm shw ct-lk mg-sm bd" id="gal-img-2" src="assets/GalaxyQuiz/img_2.png"
+                        alt="Quiz App Solution Example" />
+                    <img class="tm shw ct-lk mg-sm bd" id="gal-img-4" src="assets/GalaxyQuiz/img_4.png"
+                        alt="Quiz App Final Score" />
+                </div>
+            </div>
+            <div class="fl-box1 mg-lrc">
+                <div class="pd flex-item">
 
-                        <a class="pd pj-lk" href="https://galaxyquiz.now.sh" target="blank">Live Link</a>
+                    <a class="pd pj-lk" href="https://galaxyquiz.now.sh" target="blank">Live Link</a>
 
-                        <a class="pd pj-lk" href="https://github.com/sheilajmj/GalaxyQuiz" target="blank">GitHub
-                            Repo</a>
-                        <div>
-                            <div class="pd">
-                                <p>Galaxy Quiz is a quiz application built using React.</p>
-                            </div>
-                            <div class="pd">
-                                <p><span class="font-wt-2">
-                                        Stack: React, HMTL, CSS</span></p>
-                            </div>
+                    <a class="pd pj-lk" href="https://github.com/sheilajmj/GalaxyQuiz" target="blank">GitHub
+                        Repo</a>
+                    <div>
+                        <div class="pd">
+                            <p>Galaxy Quiz is a quiz application built using React.</p>
+                        </div>
+                        <div class="pd">
+                            <p><span class="font-wt-2">
+                                    Stack: React, HMTL, CSS</span></p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <div class="border2 sct"></div>
     <section class="contact sct" id="contact">
         <h2 class="pd-tb-md title-ft">Contact</h2>
         <div class="contact-bx">
             <div class="contact-num fl-it">
-                <h4 class="pd-tb-md  ct-ct">
-                    Sheila Jagla<br />
-                    850-591-5119<br />
-                    sheilajagla@gmail.com
-                </h4>
+                <h3 class="pd-tb-sm ct-ct expand4">I'm interested in hearing from you!<br/> <br/>sheilajagla@gmail.com<h3>
             </div>
             <div class="fl-it">
                 <img class="contact-img" src="assets/Contact-img.png" alt="Let's Chat">
@@ -267,6 +266,7 @@
                     alt="phone"></a>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 
 </html>
