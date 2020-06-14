@@ -75,7 +75,7 @@ h5{
     margin-top: 5px;
     width: fit-content;
     margin-right: 15px;
-    display: inline-block;
+    display: block;
 }
 .burgerMenu{
     width: 100%;
