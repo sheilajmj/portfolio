@@ -46,7 +46,7 @@ h5{
     z-index: 10;
     height: 40px;
     width: 100%;
-    background-color: transparent;
+    background-color: transparent !important;
     display: flex;
     flex-flow: row-reverse;
 }
@@ -168,7 +168,7 @@ h5{
     display: block;
 }
 .wd-mx{
-    max-width: 50px;
+    max-width: 45px;
 }
 
 .wd-80{
@@ -201,11 +201,16 @@ h5{
 
 .hb-lk{
     display: flex;
+    width: 70%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    align-content: center;
 }
 
 .fl-it{
@@ -300,6 +305,10 @@ text-align: center;
 .resume{
     margin-top: 25%;
     width: 100%;
+}
+
+.left{
+    text-align: left;
 }
 
 .resume:hover{
@@ -462,6 +471,7 @@ width: 80%;
     width: 60%;
 }
 
+
 .tm-bx{
     align-self: center;
     flex-wrap: wrap;
@@ -481,6 +491,10 @@ width: 80%;
     transform:scale(1.3);
     transition-timing-function: ease;
     transition-duration: .5s;
+}
+
+.ct-lk-md{
+    display: inline-flex;
 }
 
 .ct-lk:hover{
@@ -527,6 +541,10 @@ p{
     font-weight: 500;
 }
 
+.lk-wrap{
+    margin: 3%;
+}
+
 .contact-bx{
     margin-left: auto;
     margin-right: auto;
@@ -554,7 +572,10 @@ p{
     h4{
         font-size: 1.3em;
     }
-    
+
+    .hb-lk{
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 600px){
@@ -619,6 +640,14 @@ p{
     h3.twi-hd{
         font-size: 3em;
     }
+
+    .hb-lk{
+        width: 75%;
+    }
+
+    .wd-mx{
+        max-width: 75px;
+    } 
 }
 
 
@@ -723,10 +752,21 @@ p{
         -moz-border-radius: 7px;
         background: linear-gradient(rgba(181, 181, 181, 0.4),rgba(181, 181, 181, 0.2), rgba(181, 181, 181, 0.2), rgba(181, 181, 181, 0.4));
     }
+
+    .hb-lk {
+        width: 50%;
 }
 
 @media screen and (min-width: 1024px){
     .s-ct1{
     height: 350px;
+    }
+
+    .hb-lk{
+        width: 40%;
+    }
+
+    .mx-wd{
+        max-width: 59px;
     }
 }
