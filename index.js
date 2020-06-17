@@ -37,12 +37,6 @@ function burgerNavClick(){
       
       $(handleThumbnailClicks);
 
-    // function apronHover() {
-    //     const hd = $('.hs-img').attr('src', 'assets/hd-img.png')
-    //     const apr = $('.hs-img').attr('src', 'assets/hd-img-alt.png')
-    //     $('.hs-img').hover(apr, hd)
-    // }
-
     $('.hs-img').on({
         "mouseover" : function() {
            this.src = 'assets/hd-img-alt.png';
@@ -73,7 +67,6 @@ function burgerNavClick(){
             $('.flex-item-tl2').toggleClass('hide');
         }
        });
-
 
        $('.tool_3').on({
         "mouseenter" : function() {
